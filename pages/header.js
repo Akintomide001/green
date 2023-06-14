@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import image from "../pictures/logo place holder.png"
+import image from "../pictures/Logo Place Holder.png"
 import { BsSearch } from "react-icons/bs"
 
 export default function Header() {
