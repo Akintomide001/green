@@ -1,0 +1,38 @@
+body{
+    background-color: white;
+    color: black;
+}
+.section1{
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 110px;
+    padding-right: 135px;
+}
+#img{
+    width: 692px;
+    height: 500px;
+}
+.section1a{
+    width: 285px;
+}
+.t1{
+    color:#026A2C;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+}
+.p2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 24px;
+}
+.btn1{
+    width: 123px;
+    height: 51px;
+    border: none;
+    border-radius: 8px;
+    background-color: #026A2C;
+    margin-top: 24px;
+}
