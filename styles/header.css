@@ -67,6 +67,9 @@ ul li a{
     font-weight: 400;
     font-size: 14px;
 }
+ul li a:hover{
+    color: #026A2C;
+}
 .btn{
     width: 108px;
     height: 53px;
@@ -74,4 +77,8 @@ ul li a{
     background-color: #026A2C;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+}
+.p4{
+    padding-bottom: 100px;
 }
