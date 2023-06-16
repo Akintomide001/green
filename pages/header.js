@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import image from "../pictures/Logo Place Holder.png"
+import mobile from "../pictures/Vector.png"
 import { BsSearch } from "react-icons/bs"
 
 export default function Header() {
@@ -17,6 +18,10 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="containerx">
+                    {/*mobile logo*/}
+                    <Image src={mobile} alt='/' className="mobile-logo" />
+                    {/*mobile logo end*/}
+
                     <div className="logo">
                         <Image src={image} alt='/' />
                     </div>
@@ -31,6 +36,19 @@ export default function Header() {
                             <button className="btn"><a href="">Contact Us</a></button>
                         </ul>
                     </div>
+                    {/*mobile menu*/}
+                    <div className="mobile-menu">
+                        <ul className="mobile-list">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Products/produce</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">Blog</a></li>
+                            <button className="btn"><a href="">Contact Us</a></button>
+                        </ul>
+                    </div>
+                    {/*mobile menu end*/}
                 </div>
             </div>
         </>

@@ -23,11 +23,17 @@ export default function Home() {
         <div className='section1'>
           <div className='section1a'>
             <h1 className='t1'>The Green Solution</h1>
+            <div className='section1ai'>
             <p className='p2'>Healthy and fresh vegetables, grown locally with an uncommon infusion of open field and green house under best agricultural practices.</p>
             <button className="btn1"><a href="">Learn More</a></button>
+            </div>
           </div>
           <div>
             <Image src={tomato} alt='/' id="img" />
+            <div className='mobile1'>
+            <p className='p2'>Healthy and fresh vegetables, grown locally with an uncommon infusion of open field and green house under best agricultural practices.</p>
+            <button className="btn1"><a href="">Learn More</a></button>
+            </div>
           </div>
         </div>
       </div>
