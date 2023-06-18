@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/vector.png" />
       </Head>
       <Header />
-      <div>
+      <div className='body'>
         <div className='section1'>
           <div className='section1a'>
             <h1 className='t1'>The Green Solution</h1>

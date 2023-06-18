@@ -1,0 +1,15 @@
+
+.drop{
+    width: 20px;
+    color: #026A2C;
+    height: 20px;
+}
+.dropdown{
+    display: none;
+}
+@media screen and (max-width: 501px){
+    .dropdown{
+        display: block;
+        margin-top: 10px;
+    }
+}

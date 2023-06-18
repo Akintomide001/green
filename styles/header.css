@@ -58,11 +58,13 @@
     height: 53px;
     padding-top: 10px;
 }
-.mobile-list{
-    display: none;
+.desktop-menu{
+    margin-left: 145px;
 }
+
 .nav-menu{
     margin-left: 145px;
+    display: none;
 }
 ul{
     display: flex;
@@ -92,3 +94,59 @@ ul li a:hover{
 .p4{
     padding-bottom: 100px;
 }
+
+.mobile-list{
+    display: block;
+}
+.mobile-menu{
+    background-color: aqua;
+    display: none;
+}
+ @media screen and (max-width: 501px){
+/* .open-menu{
+    display: flex;
+}
+.close-menu{
+    display: flex;
+} */
+.desktop-logo{
+    display: none;
+}
+.desktop-menu{
+    display: none;
+}
+.dropdown{
+    display: block;
+}
+.mobile-logo{
+    display: block;
+}
+.containerx{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+.nav-menu{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: white;
+    width: 45%;
+    color:rgba(0, 0, 0, 0.5);
+    height: 50vh;
+    margin-left: 0;
+}
+.nav-menu ul {
+    display: "flex";
+    flex-direction: column;
+    padding-left: 15px;
+}
+.nav-menu ul li{
+    padding-top: 20px;
+}
+.container{
+    display: none;
+}
+} 
